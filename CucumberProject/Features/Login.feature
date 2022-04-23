@@ -1,4 +1,6 @@
 Feature: Login feature
+
+@sham
 Scenario: User login to facebook application
 
 Given : user is on facebook application
