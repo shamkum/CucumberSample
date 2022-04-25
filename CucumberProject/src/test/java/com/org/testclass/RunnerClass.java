@@ -5,7 +5,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="Features",glue="",dryRun=false,monochrome=true,plugin={"pretty","html:Report/html"},tags="sham")
+@CucumberOptions(features="Features",glue="",dryRun=false,monochrome=true,plugin={"pretty","html:Report/html"})
 
 public class RunnerClass {
 

@@ -23,13 +23,11 @@ public class Logic {
 	   driver.manage().window().maximize();
 	}
 
-	@When("^: user enters username<email> and password<pass>$")
+	@When("^: user enters username <email> and password <pass>$")
 	public void user_enters_username_email_and_password_pass(DataTable arg1) throws Throwable {
-		List<List<String>> raw = arg1.raw();
-		WebElement email = driver.findElement(By.id("email"));
-		email.sendKeys(raw.get(0).get(0));
-		WebElement pass = driver.findElement(By.id("pass"));
-		pass.sendKeys(raw.get(0).get(1));
+	 List<List<String>> raw = arg1.raw();
+	 driver.findElement(By.id("email")).sendKeys(raw.get(0).get(0));
+	 driver.findElement(By.id("pass")).sendKeys(raw.get(0).get(1));
 	}
 
 	@Then("^: user click on login button$")
