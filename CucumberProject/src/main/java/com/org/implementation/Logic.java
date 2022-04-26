@@ -38,6 +38,6 @@ public class Logic {
 	@Then("^: user closes the application$")
 	public void user_closes_the_application() throws Throwable {
 		Thread.sleep(5000);
-		driver.close();
+		driver.quit();
 	}
 }
