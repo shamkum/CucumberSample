@@ -38,25 +38,34 @@ formatter.step({
   "name": ": user click on login button",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 13,
+  "name": ": user closes the application",
+  "keyword": "But "
+});
 formatter.match({
   "location": "Logic.user_is_on_facebook_application()"
 });
 formatter.result({
-  "duration": 4030361200,
+  "duration": 3928438900,
   "status": "passed"
 });
 formatter.match({
   "location": "Logic.user_enters_username_email_and_password_pass(DataTable)"
 });
 formatter.result({
-  "duration": 325951900,
+  "duration": 249105600,
   "status": "passed"
 });
 formatter.match({
   "location": "Logic.user_click_on_login_button()"
 });
 formatter.result({
-  "duration": 161230100,
+  "duration": 96078000,
   "status": "passed"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 });

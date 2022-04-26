@@ -9,3 +9,5 @@ When : user enters username <email> and password <pass>
 |sham|sham1234|
 
 Then : user click on login button
+
+But : user closes the application

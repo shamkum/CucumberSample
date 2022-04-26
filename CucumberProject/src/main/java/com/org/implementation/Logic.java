@@ -34,4 +34,10 @@ public class Logic {
 	public void user_click_on_login_button() throws Throwable {
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
+	
+	@Then("^: user closes the application$")
+	public void user_closes_the_application() throws Throwable {
+		Thread.sleep(5000);
+		driver.close();
+	}
 }
