@@ -47,28 +47,23 @@ formatter.match({
   "location": "Logic.user_is_on_facebook_application()"
 });
 formatter.result({
-  "duration": 4369087200,
+  "duration": 24229518200,
   "status": "passed"
 });
 formatter.match({
   "location": "Logic.user_enters_username_email_and_password_pass(DataTable)"
 });
 formatter.result({
-  "duration": 260322500,
+  "duration": 245897900,
   "status": "passed"
 });
 formatter.match({
   "location": "Logic.user_click_on_login_button()"
 });
 formatter.result({
-  "duration": 85897200,
+  "duration": 132482200,
   "status": "passed"
 });
 formatter.match({
   "location": "Logic.user_closes_the_application()"
-});
-formatter.result({
-  "duration": 5710731600,
-  "status": "passed"
-});
 });
